@@ -1,9 +1,10 @@
 import './App.css';
+import Header from './Components/Header/Header';
 
 function App() {
   return (
     <div>
-      <h1>welcome to real estate website</h1>
+      <Header />
     </div>
   );
 }
