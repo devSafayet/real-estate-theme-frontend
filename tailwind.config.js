@@ -14,9 +14,9 @@ module.exports = {
 
           "accent": "#37CDBE",
 
-          "neutral": "#3D4451",
+          "neutral": "#FFEFEC",
 
-          "base-100": "#FFFFFF",
+          "base-200": "#F2F6F7",
 
           "info": "#3ABFF8",
 
@@ -30,5 +30,7 @@ module.exports = {
     ],
   },
 
-  plugins: [require("daisyui")],
+  plugins: [
+    require("daisyui"),
+  ],
 }
