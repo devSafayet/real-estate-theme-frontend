@@ -4,9 +4,12 @@ import { MdOutlineBedroomChild, MdOutlineBathroom } from 'react-icons/md';
 import { AiOutlineSlackSquare } from 'react-icons/ai';
 const Properties = () => {
     return (
-        <div className='px-16 m-auto text-black mb-8'>
-            <h6 className='text-primary mb-2 text-center'>Properties</h6>
-            <h2 className='text-4xl font-bold mb-2 text-center'>Featured Listings</h2>
+        <div className='px-16 m-auto text-black mb-8 mt-16'>
+            <h5 className='text-center mb-6'>
+                <span className='text-2xl font-semibold text-primary bg-neutral rounded-full px-4 py-1'>About Us</span>
+            </h5>
+
+            <h2 className='text-4xl font-bold mb-2 text-center mb-6'>Featured Listings</h2>
             <div className='flex flex-wrap gap-6'>
                 <div class="max-w-sm rounded overflow-hidden shadow-lg pb-2">
                     <img class="w-full" src={images} alt="Sunset in the mountains" />

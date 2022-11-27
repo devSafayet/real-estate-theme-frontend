@@ -15,42 +15,42 @@ const Header = () => {
         localStorage.removeItem("accessToken")
     }; */
     const menu = <>
-        <li><Link to="/">HOME</Link></li>
+        <li className="hover:text-primary"><Link to="/">HOME</Link></li>
         {/* <li><Link to="/about">ABOUT</Link></li> */}
         <li tabIndex={0}>
-            <a>
+            <a className="hover:text-primary">
                 ABOUT
                 <svg className="fill-current" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" /></svg>
             </a>
             <ul className="p-2 bg-base-100">
-                <li><Link to="/about">ABOUT US</Link></li>
-                <li><Link to="/about">ABOUT US</Link></li>
-                <li><Link to="/about">ABOUT US</Link></li>
-                <li><Link to="/about">ABOUT US</Link></li>
+                <li className="hover:text-primary"><Link to="/about">ABOUT US</Link></li>
+                <li className="hover:text-primary"><Link to="/about">ABOUT US</Link></li>
+                <li className="hover:text-primary"><Link to="/about">ABOUT US</Link></li>
+                <li className="hover:text-primary"><Link to="/about">ABOUT US</Link></li>
             </ul>
-        </li>
-        <li><Link to="/property">PROPERTY</Link></li>
+        </li >
+        <li className="hover:text-primary"><Link to="/property">PROPERTY</Link></li>
 
         {/* <li><Link to="/concern">CONCERN</Link></li> */}
         {/* <li><Link to="/services">SERVICES</Link></li> */}
         <li tabIndex={0}>
-            <a>
+            <a className="hover:text-primary">
                 SERVICES
                 <svg className="fill-current" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" /></svg>
             </a>
             <ul className="p-2 bg-base-100">
-                <li><Link to="/services/constraction">CONSTRUCTION</Link></li>
+                <li className="hover:text-primary"><Link to="/services/constraction">CONSTRUCTION</Link></li>
 
             </ul>
         </li>
-        <li><Link to="/contact">CONTACT</Link></li>
+        <li className="hover:text-primary"><Link to="/contact">CONTACT</Link></li>
         <li tabIndex={0}>
-            <a>
+            <a className="hover:bg-primary hover:rounded-lg">
                 <FaUserAlt />
             </a>
             <ul className="p-2 bg-base-100">
-                <li><Link to="/">Sign in</Link></li>
-                <li><Link to="/">Register</Link></li>
+                <li className="hover:text-primary"><Link to="/">Sign in</Link></li>
+                <li className="hover:text-primary"><Link to="/">Register</Link></li>
             </ul>
         </li>
 
@@ -64,20 +64,20 @@ const Header = () => {
 
     </>
     return (
-        <div className='mx-auto'>
+        <div className='mx-auto text-black'>
             {/* TOPBAR  */}
             <div className='bg-secondary text-white lg:flex justify-between pt-2 pb-2 px-4 cursor-pointer'>
                 {/* left-side icons and text  */}
                 <div className='lg:flex gap-3 ps-3 pl-2'>
-                    <div className='flex gap-1 items-center hover:text-blue-400'>
+                    <div className='flex gap-1 items-center hover:text-primary'>
                         <IoLocationOutline />
                         <h3>H-33, R-15, Sector-11, Uttara, Dhaka-1230 </h3>
                     </div>
-                    <div className='flex gap-1 items-center hover:text-blue-400'>
+                    <div className='flex gap-1 items-center hover:text-primary'>
                         <IoCallOutline />
                         <h3>  +880963-8557887</h3>
                     </div>
-                    <div className='flex gap-1 items-center hover:text-blue-400'>
+                    <div className='flex gap-1 items-center hover:text-primary'>
                         <CgMail />
                         <h3> info@gmail.com</h3>
                     </div>
@@ -117,13 +117,13 @@ const Header = () => {
                             <label tabIndex="0" className="btn btn-ghost lg:hidden">
                                 <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
                             </label>
-                            <ul tabIndex="0" className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
+                            <ul tabIndex="0" className="menu menu-compact dropdown-content mt-3 p-2 shadow rounded-box w-52">
                                 {menu}
                             </ul>
                         </div>
                         <a className="btn btn-ghost normal-case text-xl font-mono "><span className='text-primary '>LOGO</span></a>
                     </div>
-                    <div className="w-2/3 flex justify-center">
+                    <div className="w-2/3 flex justify-end">
                         <div className="navbar-center hidden lg:flex">
                             <ul className="menu menu-horizontal p-0">
                                 {menu}

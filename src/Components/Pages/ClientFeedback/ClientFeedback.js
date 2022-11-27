@@ -2,8 +2,11 @@ import React from 'react';
 
 const ClientFeedback = () => {
     return (
-        <div className='px-16 my-8 text-black bg-base-200 py-8'>
-            <h5 className='text-center text-primary mb-4'>Our Testimonial</h5>
+        <div className='px-16 my-10 text-black bg-base-200 py-8'>
+            <h5 className='text-center mb-6'>
+                <span className='text-2xl font-semibold text-primary bg-neutral rounded-full px-4 py-1'>Our Testimonial</span>
+            </h5>
+
             <h2 className='text-center font-bold text-4xl mb-6'>Clients Feedback</h2>
             <div className='flex gap-4'>
                 <div className="card w-96 bg-base-100 shadow-xl">

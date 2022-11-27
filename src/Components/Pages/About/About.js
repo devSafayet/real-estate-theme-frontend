@@ -7,19 +7,19 @@ import { SiSpringsecurity } from 'react-icons/si';
 
 const About = () => {
     return (
-        <div className='container '>
+        <div className='container mt-8'>
             <div className="grid grid-cols-2 flex justify-center">
                 <div>
                     <img src={about} alt="" />
                 </div>
-                <div className='text-black'>
-                    <h6 className='text-3xl font-bold text-primary bg-neutral'>About Us</h6>
-                    <h2 className='text-5xl font-bold mb-4'>The Leading Real Estate Rental Marketplace.</h2>
-                    <p className='text-base-400 mb-4'>Over 39,000 people work for us in more than 70 countries all over the This breadth of global coverage, combined with specialist services</p>
+                <div className='text-black pt-8'>
+                    <span className='text-2xl font-semibold text-primary bg-neutral rounded-full px-4 py-1'>About Us</span>
+                    <h2 className='text-5xl font-bold mt-6 mb-6'>The Leading Real Estate Rental Marketplace.</h2>
+                    <p className='text-base-400 mb-8'>Over 39,000 people work for us in more than 70 countries all over the This breadth of global coverage, combined with specialist services</p>
                     <div className='flex gap-4'>
-                        <div className=''>
-                            <div className='flex items-center gap-4 mb-4'>
-                                <div className='bg-neutral rounded-full p-3'>
+                        <div className='mb-4'>
+                            <div className='flex items-center gap-4 mb-6'>
+                                <div className='bg-neutral rounded-full p-3 text-primary'>
                                     <FcHome />
                                 </div>
                                 <h6>Smart Home Design</h6>
@@ -32,7 +32,7 @@ const About = () => {
                             </div>
                         </div>
                         <div>
-                            <div className='flex items-center gap-4 mb-4'>
+                            <div className='flex items-center gap-4 mb-6'>
                                 <div className='bg-neutral rounded-full p-3'>
                                     <FaLifeRing />
                                 </div>
@@ -47,7 +47,7 @@ const About = () => {
                         </div>
                     </div>
 
-                    <div className='mt-8 bg-neutral py-8 pl-6 mb-4'>
+                    <div className='mt-8 bg-neutral rounded py-8 pl-6 mb-8 border-l-4 border-primary'>
                         <p>"Enimad minim veniam quis nostrud exercitation <br />
                             llamco laboris. Lorem ipsum dolor sit amet"</p>
                     </div>
