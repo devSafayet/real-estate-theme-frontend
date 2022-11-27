@@ -123,7 +123,7 @@ const Header = () => {
                         </div>
                         <a className="btn btn-ghost normal-case text-xl font-mono "><span className='text-primary '>LOGO</span></a>
                     </div>
-                    <div className="w-2/3 flex justify-end">
+                    <div className="w-2/3 flex justify-end mr-14">
                         <div className="navbar-center hidden lg:flex">
                             <ul className="menu menu-horizontal p-0">
                                 {menu}
