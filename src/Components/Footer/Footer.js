@@ -3,8 +3,8 @@ import React from 'react';
 const Footer = () => {
     return (
         <div className=''>
-            <footer className="footer p-10 text-white grid grid-cols-5 bg-accent">
-                <div>
+            <footer className="footer px-16 py-10 text-white bg-accent">
+                <div className=''>
                     <span className="footer-title">Quarter</span>
                     <a className="link link-hover">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto repellat voluptas aperiam veniam corporis saepe numquam quo cumque ipsa modi cum eos exercitationem</a>
                     <a className="link link-hover">Brooklyn, New York, United States</a>

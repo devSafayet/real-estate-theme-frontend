@@ -15,7 +15,7 @@ const ApartmentsPlan = () => {
             </h5>
             <h2 className='text-4xl font-bold text-center mb-4'>Apartments Plan</h2>
             <div>
-                <div className="bloc-tabs flex gap-4 justify-center my-8">
+                <div className="bloc-tabs flex flex-wrap md:text-lg text-sm gap-4 justify-center my-8 ">
                     <button className={toggleState === 1 ? "tabs tabs-boxed active-tabs" : "tabs tabs-boxed"}
                         onClick={() => toggleTab(1)}
                     >
@@ -45,7 +45,7 @@ const ApartmentsPlan = () => {
                         Double Height
                     </button>
                 </div>
-                <div className="content-tabs">
+                <div className="content-tabs lg:flex">
                     <div
                         className={toggleState === 1 ? "content  active-content" : "content"}
                     >

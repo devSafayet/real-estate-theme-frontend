@@ -10,8 +10,8 @@ const OurService = () => {
             <span className='text-2xl font-semibold text-primary bg-neutral rounded-full px-4 py-1'>Our Services</span>
 
             <h2 className='text-4xl font-bold mb-6 mt-4'>Our Main Focus</h2>
-            <div className='grid grid-cols-3'>
-                <div className="card w-96 bg-base-100 shadow-xl">
+            <div className='lg:grid grid-cols-3'>
+                <div className="card lg:w-96 bg-base-100 shadow-xl mb-2">
                     <figure className="px-10 pt-10">
                         <img src={buy} alt="buy images" className="rounded-xl" />
                     </figure>
@@ -25,7 +25,7 @@ const OurService = () => {
                         </div>
                     </div>
                 </div>
-                <div className="card w-96 bg-base-100 shadow-xl">
+                <div className="card lg:w-96 bg-base-100 shadow-xl mb-2">
                     <figure className="px-10 pt-10">
                         <img src={rent} alt="Shoes" className="rounded-xl" />
                     </figure>
@@ -40,7 +40,7 @@ const OurService = () => {
                         </div>
                     </div>
                 </div>
-                <div className="card w-96 bg-base-100 shadow-xl">
+                <div className="card lg:w-96 bg-base-100 shadow-xl mb-2">
                     <figure className="px-10 pt-10">
                         <img src={sell} alt="Shoes" className="rounded-xl" />
                     </figure>

@@ -23,13 +23,13 @@ const Header = () => {
                 <svg className="fill-current" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" /></svg>
             </a>
             <ul className="p-2 bg-base-100">
-                <li className="hover:text-primary"><Link to="/about">ABOUT US</Link></li>
-                <li className="hover:text-primary"><Link to="/about">ABOUT US</Link></li>
-                <li className="hover:text-primary"><Link to="/about">ABOUT US</Link></li>
-                <li className="hover:text-primary"><Link to="/about">ABOUT US</Link></li>
+                <li className="hover:text-primary"><Link to="/">ABOUT US</Link></li>
+                <li className="hover:text-primary"><Link to="/">ABOUT US</Link></li>
+                <li className="hover:text-primary"><Link to="/">ABOUT US</Link></li>
+                <li className="hover:text-primary"><Link to="/">ABOUT US</Link></li>
             </ul>
         </li >
-        <li className="hover:text-primary"><Link to="/property">PROPERTY</Link></li>
+        <li className="hover:text-primary"><Link to="/">PROPERTY</Link></li>
 
         {/* <li><Link to="/concern">CONCERN</Link></li> */}
         {/* <li><Link to="/services">SERVICES</Link></li> */}
@@ -39,11 +39,11 @@ const Header = () => {
                 <svg className="fill-current" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" /></svg>
             </a>
             <ul className="p-2 bg-base-100">
-                <li className="hover:text-primary"><Link to="/services/constraction">CONSTRUCTION</Link></li>
+                <li className="hover:text-primary"><Link to="/">CONSTRUCTION</Link></li>
 
             </ul>
         </li>
-        <li className="hover:text-primary"><Link to="/contact">CONTACT</Link></li>
+        <li className="hover:text-primary"><Link to="/">CONTACT</Link></li>
         <li tabIndex={0}>
             <a className="hover:bg-primary hover:rounded-lg">
                 <FaUserAlt />
@@ -66,7 +66,7 @@ const Header = () => {
     return (
         <div className='mx-auto text-black'>
             {/* TOPBAR  */}
-            <div className='bg-secondary text-white lg:flex justify-between pt-2 pb-2 px-4 cursor-pointer'>
+            <div className='bg-secondary text-white lg:flex justify-between pt-2 pb-2 px-16 cursor-pointer md:mb-2 sm:mb-2'>
                 {/* left-side icons and text  */}
                 <div className='lg:flex gap-3 ps-3 pl-2'>
                     <div className='flex gap-1 items-center hover:text-primary'>
@@ -110,7 +110,7 @@ const Header = () => {
             </div>
 
             {/* --------------------Navbar--------------- */}
-            <div className="navbar bg-white sticky top-0 z-50 ">
+            <div className="navbar bg-white sticky top-0 z-50 px-16">
                 <div className="flex justify-between w-full">
                     <div className="w-1/3">
                         <div className="dropdown">
@@ -123,7 +123,7 @@ const Header = () => {
                         </div>
                         <a className="btn btn-ghost normal-case text-xl font-mono "><span className='text-primary '>LOGO</span></a>
                     </div>
-                    <div className="w-2/3 flex justify-end mr-14">
+                    <div className="w-2/3 flex justify-end">
                         <div className="navbar-center hidden lg:flex">
                             <ul className="menu menu-horizontal p-0">
                                 {menu}

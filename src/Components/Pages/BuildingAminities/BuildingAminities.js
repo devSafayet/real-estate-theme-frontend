@@ -7,16 +7,17 @@ import { MdSecurityUpdateGood, MdOutlineMedicalServices } from 'react-icons/md';
 
 const BuildingAminities = () => {
     return (
-        <div className='text-black px-16 mb-16'>
+        <div className='text-black lg:px-16 mb-16'>
 
             <h5 className='text-center mb-6'>
                 <span className='text-2xl font-semibold text-primary bg-neutral rounded-full px-4 py-1'>Our Aminities</span>
             </h5>
 
-            <h2 className='text-4xl font-bold mb-6 text-center'>Building Aminities</h2>
+            <h2 className='text-2xl lg:text-4xl font-bold mb-6 text-center'>Building Aminities</h2>
+
             <div className=''>
-                <div className='flex gap-4 mb-4'>
-                    <div className="card w-96 shadow-2xl justify-center hover:bg-primary">
+                <div className='lg:flex gap-4 mb-4'>
+                    <div className="card w-96 shadow-2xl justify-center hover:bg-primary mb-2">
                         <div className="card-body text-center">
                             <div className='text-6xl text-primary bg-neutral rounded-full m-auto p-4'>
                                 <AiOutlineCar />
@@ -24,7 +25,7 @@ const BuildingAminities = () => {
                             <h4 className='text-2xl font-semibold'>Parking Space</h4>
                         </div>
                     </div>
-                    <div className="card w-96 bg-base-100 shadow-xl hover:bg-primary">
+                    <div className="card w-96 bg-base-100 shadow-xl hover:bg-primary mb-2">
                         <div className='card-body text-center'>
                             <div className='text-6xl text-primary bg-neutral rounded-full m-auto p-4'>
                                 <FaSwimmingPool />
@@ -32,7 +33,7 @@ const BuildingAminities = () => {
                             <h4 className='text-2xl font-semibold'>Swimming Pool</h4>
                         </div>
                     </div>
-                    <div className="card w-96 bg-base-100 shadow-xl hover:bg-primary">
+                    <div className="card w-96 bg-base-100 shadow-xl hover:bg-primary mb-2">
                         <div className="card-body text-center">
                             <div className='text-6xl text-primary bg-neutral rounded-full m-auto p-4'>
                                 <MdSecurityUpdateGood />
@@ -40,7 +41,7 @@ const BuildingAminities = () => {
                             <h4 className='text-2xl font-semibold'>Private Security</h4>
                         </div>
                     </div>
-                    <div className="card w-96 bg-base-100 shadow-xl hover:bg-primary">
+                    <div className="card w-96 bg-base-100 shadow-xl hover:bg-primary mb-2">
                         <div className="card-body text-center">
                             <div className='text-6xl text-primary bg-neutral rounded-full m-auto p-4'>
                                 <MdOutlineMedicalServices />
@@ -49,8 +50,8 @@ const BuildingAminities = () => {
                         </div>
                     </div>
                 </div>
-                <div className='flex gap-4'>
-                    <div className="card w-96 shadow-2xl justify-center hover:bg-primary">
+                <div className='lg:flex gap-4'>
+                    <div className="card w-96 bg-base-100 shadow-xl justify-center hover:bg-primary mb-2">
                         <div className="card-body text-center">
                             <div className='text-6xl text-primary bg-neutral rounded-full m-auto p-4'>
                                 <IoLibrary />
@@ -58,7 +59,7 @@ const BuildingAminities = () => {
                             <h4 className='text-2xl font-semibold'>Library area</h4>
                         </div>
                     </div>
-                    <div className="card w-96 bg-base-100 shadow-xl hover:bg-primary">
+                    <div className="card w-96 bg-base-100 shadow-xl hover:bg-primary mb-2">
                         <div className='card-body text-center'>
                             <div className='text-6xl text-primary bg-neutral rounded-full m-auto p-4'>
                                 <IoBedSharp />
@@ -66,7 +67,7 @@ const BuildingAminities = () => {
                             <h4 className='text-2xl font-semibold'>King Size Beds</h4>
                         </div>
                     </div>
-                    <div className="card w-96 bg-base-100 shadow-xl hover:bg-primary">
+                    <div className="card w-96 bg-base-100 shadow-xl hover:bg-primary mb-2">
                         <div className="card-body text-center">
                             <div className='text-6xl text-primary bg-neutral rounded-full m-auto p-4'>
                                 <GiHouse />
@@ -74,7 +75,7 @@ const BuildingAminities = () => {
                             <h4 className='text-2xl font-semibold'>Smart Homes</h4>
                         </div>
                     </div>
-                    <div className="card w-96 bg-base-100 shadow-xl hover:bg-primary">
+                    <div className="card w-96 bg-base-100 shadow-xl hover:bg-primary mb-2">
                         <div className="card-body text-center">
                             <div className='text-6xl text-primary bg-neutral rounded-full m-auto p-4'>
                                 <GiKidSlide />

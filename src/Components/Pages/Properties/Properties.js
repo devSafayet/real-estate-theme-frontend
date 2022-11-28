@@ -10,8 +10,9 @@ const Properties = () => {
             </h5>
 
             <h2 className='text-4xl font-bold mb-2 text-center mb-6'>Featured Listings</h2>
-            <div className='flex flex-wrap gap-6'>
-                <div class="max-w-sm rounded overflow-hidden shadow-lg pb-2">
+
+            <div className='lg:flex  gap-6'>
+                <div class="max-w-sm rounded overflow-hidden shadow-lg mb-4 pb-2">
                     <img class="w-full" src={images} alt="Sunset in the mountains" />
                     <div class="px-6 py-4">
                         <h4 className='text-primary'><span className=' font-bold'>$34,900</span>/Month</h4>
@@ -20,7 +21,7 @@ const Properties = () => {
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla!
                         </p>
                     </div>
-                    <div className='px-6 flex gap-2'>
+                    <div className='px-6 flex flex-wrap gap-2'>
                         <div>
                             <div className='flex items-center gap-1'>
                                 <h6>3</h6>
@@ -47,7 +48,7 @@ const Properties = () => {
 
                     </div>
                 </div>
-                <div class="max-w-sm rounded overflow-hidden shadow-lg pb-2">
+                <div class="max-w-sm rounded overflow-hidden shadow-lg mb-4 pb-2">
                     <img class="w-full" src={images} alt="Sunset in the mountains" />
                     <div class="px-6 py-4">
                         <h4 className='text-primary'><span className=' font-bold'>$34,900</span>/Month</h4>
@@ -56,7 +57,7 @@ const Properties = () => {
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla!
                         </p>
                     </div>
-                    <div className='px-6 flex gap-2'>
+                    <div className='px-6 flex flex-wrap gap-2'>
                         <div>
                             <div className='flex items-center gap-1'>
                                 <h6>3</h6>
@@ -83,7 +84,7 @@ const Properties = () => {
 
                     </div>
                 </div>
-                <div class="max-w-sm rounded overflow-hidden shadow-lg pb-2">
+                <div class="max-w-sm rounded overflow-hidden shadow-lg mb-4 mb-2">
                     <img class="w-full" src={images} alt="Sunset in the mountains" />
                     <div class="px-6 py-4">
                         <h4 className='text-primary'><span className=' font-bold'>$34,900</span>/Month</h4>
@@ -92,7 +93,7 @@ const Properties = () => {
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla!
                         </p>
                     </div>
-                    <div className='px-6 flex gap-2'>
+                    <div className='px-6 flex flex-wrap gap-2'>
                         <div>
                             <div className='flex items-center gap-1'>
                                 <h6>3</h6>
@@ -119,6 +120,8 @@ const Properties = () => {
 
                     </div>
                 </div>
+
+
             </div>
         </div>
     );

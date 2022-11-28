@@ -7,8 +7,8 @@ import { SiSpringsecurity } from 'react-icons/si';
 
 const About = () => {
     return (
-        <div className='container mt-8'>
-            <div className="grid grid-cols-2 flex justify-center">
+        <div className='px-16 mt-8'>
+            <div className="lg:grid grid-cols-2 lg:flex justify-center">
                 <div>
                     <img src={about} alt="" />
                 </div>
@@ -16,7 +16,7 @@ const About = () => {
                     <span className='text-2xl font-semibold text-primary bg-neutral rounded-full px-4 py-1'>About Us</span>
                     <h2 className='text-5xl font-bold mt-6 mb-6'>The Leading Real Estate Rental Marketplace.</h2>
                     <p className='text-base-400 mb-8'>Over 39,000 people work for us in more than 70 countries all over the This breadth of global coverage, combined with specialist services</p>
-                    <div className='flex gap-4'>
+                    <div className='lg:flex gap-4'>
                         <div className='mb-4'>
                             <div className='flex items-center gap-4 mb-6'>
                                 <div className='bg-neutral rounded-full p-3 text-primary'>
