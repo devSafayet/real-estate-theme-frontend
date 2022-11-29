@@ -1,15 +1,26 @@
 import React from 'react';
-
+import { CgMail } from 'react-icons/cg';
+import { IoCallOutline } from 'react-icons/io5';
 const Footer = () => {
     return (
         <div className=''>
             <footer className="footer px-16 py-10 text-white bg-accent">
                 <div className=''>
                     <span className="footer-title">Quarter</span>
-                    <a className="link link-hover">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto repellat voluptas aperiam veniam corporis saepe numquam quo cumque ipsa modi cum eos exercitationem</a>
+                    <a className="link link-hover">Lorem ipsum dolor sit amet consectetur <br /> adipisicing elit. Architecto repellat voluptas <br /> aperiam veniam corporis saepe numquam <br /> quo cumque ipsa modi cum eos exercitationem</a>
                     <a className="link link-hover">Brooklyn, New York, United States</a>
-                    <a className="link link-hover">+880963855000</a>
-                    <a className="link link-hover">example@example.com</a>
+                    <a className="link link-hover">
+                        <div className='flex gap-1 items-center hover:text-primary'>
+                            <IoCallOutline />
+                            <h3>  +880963-8557887</h3>
+                        </div>
+                    </a>
+                    <a className="link link-hover">
+                        <div className='flex gap-1 items-center hover:text-primary'>
+                            <CgMail />
+                            <h3> info@gmail.com</h3>
+                        </div>
+                    </a>
                 </div>
                 <div>
                     <span className="footer-title">Company</span>
@@ -37,7 +48,7 @@ const Footer = () => {
                 </div>
                 <div>
                     <span className="footer-title">Newsletter</span>
-                    <a className="link link-hover">Subscribe to our weekly Newsletter and receive updates via email.</a>
+                    <a className="link link-hover">Subscribe to our weekly Newsletter <br /> and receive updates via email.</a>
 
                 </div>
             </footer>

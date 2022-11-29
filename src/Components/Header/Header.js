@@ -23,7 +23,7 @@ const Header = () => {
                 <svg className="fill-current" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" /></svg>
             </a>
             <ul className="p-2 bg-base-100">
-                <li className="hover:text-primary"><Link to="/">ABOUT US</Link></li>
+                <li className="hover:text-primary"><Link to="/about">ABOUT US</Link></li>
                 <li className="hover:text-primary"><Link to="/">ABOUT US</Link></li>
                 <li className="hover:text-primary"><Link to="/">ABOUT US</Link></li>
                 <li className="hover:text-primary"><Link to="/">ABOUT US</Link></li>
@@ -39,7 +39,7 @@ const Header = () => {
                 <svg className="fill-current" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" /></svg>
             </a>
             <ul className="p-2 bg-base-100">
-                <li className="hover:text-primary"><Link to="/">CONSTRUCTION</Link></li>
+                <li className="hover:text-primary"><Link to="/services">CONSTRUCTION</Link></li>
 
             </ul>
         </li>
@@ -49,8 +49,8 @@ const Header = () => {
                 <FaUserAlt />
             </a>
             <ul className="p-2 bg-base-100">
-                <li className="hover:text-primary"><Link to="/">Sign in</Link></li>
-                <li className="hover:text-primary"><Link to="/">Register</Link></li>
+                <li className="hover:text-primary"><Link to="/signin">Sign in</Link></li>
+                <li className="hover:text-primary"><Link to="/register">Register</Link></li>
             </ul>
         </li>
 

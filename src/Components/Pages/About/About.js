@@ -51,7 +51,7 @@ const About = () => {
                         <p>"Enimad minim veniam quis nostrud exercitation <br />
                             llamco laboris. Lorem ipsum dolor sit amet"</p>
                     </div>
-                    <button className='bg-primary text-white px-8 py-4 hover:border-2 hover:border-black hover:text-black hover:bg-white'>OUR SERVICES</button>
+                    <button className='bg-primary rounded text-white px-8 py-4 hover:border-2 hover:border-black hover:text-black hover:bg-white'>OUR SERVICES</button>
 
                 </div>
             </div>
