@@ -14,7 +14,7 @@ const About = () => {
                 </div>
                 <div className='text-black pt-8'>
                     <span className='text-2xl font-semibold text-primary bg-neutral rounded-full px-4 py-1'>About Us</span>
-                    <h2 className='text-5xl font-bold mt-6 mb-6'>The Leading Real Estate Rental Marketplace.</h2>
+                    <h2 className='text-2xl lg:text-5xl font-bold mt-6 mb-6'>The Leading Real Estate Rental Marketplace.</h2>
                     <p className='text-base-400 mb-8'>Over 39,000 people work for us in more than 70 countries all over the This breadth of global coverage, combined with specialist services</p>
                     <div className='lg:flex gap-4'>
                         <div className='mb-4'>

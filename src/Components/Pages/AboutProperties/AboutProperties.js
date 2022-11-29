@@ -14,7 +14,7 @@ const AboutProperties = () => {
                 <div>
                     <span className='text-2xl font-semibold text-primary bg-neutral rounded-full px-4 py-1'>About Us</span>
 
-                    <h1 className='text-5xl font-bold mb-6 mt-6'>Today Sells Properties</h1>
+                    <h1 className='text-2xl lg:text-5xl font-bold mb-6 mt-6'>Today Sells Properties</h1>
 
                     <p className='mb-6'>Houzez allow you to design unlimited panels and real estate custom forms to capture leads and keep record of all information</p>
 

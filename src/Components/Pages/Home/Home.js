@@ -7,6 +7,7 @@ import BuildingAminities from '../BuildingAminities/BuildingAminities';
 import ClientFeedback from '../ClientFeedback/ClientFeedback';
 import Contact from '../Contact/Contact';
 import CountDown from '../CountDown/CountDown';
+import NewsAndBlogs from '../NewsAndBlogs/NewsAndBlogs';
 import OurService from '../OurService/OurService';
 import Properties from '../Properties/Properties';
 import WelcomeHeading from '../WelcomeHeading/WelcomeHeading';
@@ -25,6 +26,7 @@ const Home = () => {
             <BuildingAminities />
             <Contact />
             <ClientFeedback />
+            <NewsAndBlogs />
         </div>
     );
 };
