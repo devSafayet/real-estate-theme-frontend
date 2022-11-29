@@ -7,6 +7,7 @@ import BuildingAminities from '../BuildingAminities/BuildingAminities';
 import ClientFeedback from '../ClientFeedback/ClientFeedback';
 import Contact from '../Contact/Contact';
 import CountDown from '../CountDown/CountDown';
+import MessageFromMD from '../MessageFromMD/MessageFromMD';
 import NewsAndBlogs from '../NewsAndBlogs/NewsAndBlogs';
 import OurService from '../OurService/OurService';
 import Properties from '../Properties/Properties';
@@ -24,6 +25,7 @@ const Home = () => {
             <Properties />
             <ApartmentsPlan />
             <BuildingAminities />
+            <MessageFromMD />
             <Contact />
             <ClientFeedback />
             <NewsAndBlogs />
