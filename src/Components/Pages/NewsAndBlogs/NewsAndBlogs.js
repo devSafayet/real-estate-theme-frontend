@@ -62,7 +62,7 @@ const NewsAndBlogs = () => {
                     <img class="w-full " src={blogs1} alt="Sunset in the mountains" />
                     <div class="px-6 pt-4 pb-2">
 
-                        <div className='flex gap-2'>
+                        <div className='lg:flex gap-2'>
                             <button className='flex justify-center items-center gap-1'>
                                 <span className='text-primary'>
                                     <RiUser3Fill />
@@ -105,7 +105,7 @@ const NewsAndBlogs = () => {
                     <img class="w-full " src={blogs1} alt="Sunset in the mountains" />
                     <div class="px-6 pt-4 pb-2">
 
-                        <div className='flex gap-2'>
+                        <div className='lg:flex gap-2'>
                             <button className='flex justify-center items-center gap-1'>
                                 <span className='text-primary'>
                                     <RiUser3Fill />

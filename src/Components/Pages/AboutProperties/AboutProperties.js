@@ -10,7 +10,7 @@ import img3 from '../../../images/Properties-img-3.jpg'
 const AboutProperties = () => {
     return (
         <div>
-            <div className="lg:grid grid-cols-2 text-black px-16">
+            <div className="lg:grid grid-cols-2 text-black px-16 bg-base-200 pt-4">
                 <div>
                     <span className='text-2xl font-semibold text-primary bg-neutral rounded-full px-4 py-1'>About Us</span>
 

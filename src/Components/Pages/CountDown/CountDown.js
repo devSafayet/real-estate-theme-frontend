@@ -5,7 +5,7 @@ import CountUp from 'react-countup';
 
 const CountDown = () => {
     return (
-        <div className='py-20 my-12 bg-base-200 text-black lg:grid grid-cols-2'>
+        <div className='py-20 my-12 text-black lg:grid grid-cols-2'>
             <div className='flex pb-4'>
                 <div className='text-center m-auto'>
                     <div className='text-8xl text-primary'>

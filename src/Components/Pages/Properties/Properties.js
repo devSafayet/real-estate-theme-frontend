@@ -4,7 +4,7 @@ import { MdOutlineBedroomChild, MdOutlineBathroom } from 'react-icons/md';
 import { AiOutlineSlackSquare } from 'react-icons/ai';
 const Properties = () => {
     return (
-        <div className='px-16 m-auto text-black mb-8 mt-16'>
+        <div className='px-16 m-auto text-black mb-8 mt-16 bg-base-200 pt-4'>
             <h5 className='text-center mb-6'>
                 <span className='text-2xl font-semibold text-primary bg-neutral rounded-full px-4 py-1'>About Us</span>
             </h5>

@@ -1,0 +1,11 @@
+.style-one {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.style-two {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.style-three {
+    background: linear-gradient(45deg, rgba(29, 236, 197, 0.7), rgba(91, 14, 214, 0.7) 100%);
+}

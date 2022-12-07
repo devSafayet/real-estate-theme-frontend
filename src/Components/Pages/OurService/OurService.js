@@ -6,7 +6,7 @@ import { AiOutlineArrowRight } from 'react-icons/ai';
 
 const OurService = () => {
     return (
-        <div className='mt-6 px-16 m-auto py-16 text-black text-center bg-base-200'>
+        <div className='mt-6 px-16 m-auto py-16 text-black text-center'>
             <span className='text-2xl font-semibold text-primary bg-neutral rounded-full px-4 py-1'>Our Services</span>
 
             <h2 className='text-4xl font-bold mb-6 mt-4'>Our Main Focus</h2>

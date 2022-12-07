@@ -3,20 +3,25 @@ import About from '../About/About';
 import AboutProperties from '../AboutProperties/AboutProperties';
 import ApartmentsPlan from '../ApartmentsPlan/ApartmentsPlan';
 import Banner from '../Banner/Banner';
+import VideoBanner from '../Banner/VideoBanner';
 import BuildingAminities from '../BuildingAminities/BuildingAminities';
+import ChooseAplan from '../ChooseAplan/ChooseAplan';
 import ClientFeedback from '../ClientFeedback/ClientFeedback';
 import Contact from '../Contact/Contact';
 import CountDown from '../CountDown/CountDown';
+import Faq from '../Faq/Faq';
 import MessageFromMD from '../MessageFromMD/MessageFromMD';
 import NewsAndBlogs from '../NewsAndBlogs/NewsAndBlogs';
 import OurService from '../OurService/OurService';
+import OurTeam from '../OurTeam/OurTeam';
 import Properties from '../Properties/Properties';
 import WelcomeHeading from '../WelcomeHeading/WelcomeHeading';
 
 const Home = () => {
     return (
         <div>
-            <Banner />
+            {/* <Banner /> */}
+            {/* <VideoBanner /> */}
             <WelcomeHeading />
             <About />
             <CountDown />
@@ -24,8 +29,12 @@ const Home = () => {
             <OurService />
             <Properties />
             <ApartmentsPlan />
+            <ChooseAplan />
             <BuildingAminities />
             <MessageFromMD />
+            <OurTeam />
+            <Faq />
+
             <Contact />
             <ClientFeedback />
             <NewsAndBlogs />

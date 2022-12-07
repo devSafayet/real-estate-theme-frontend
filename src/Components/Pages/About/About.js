@@ -7,7 +7,7 @@ import { SiSpringsecurity } from 'react-icons/si';
 
 const About = () => {
     return (
-        <div className='px-16 mt-8'>
+        <div className='px-16 mt-8 bg-base-200 pt-4'>
             <div className="lg:grid grid-cols-2 lg:flex justify-center">
                 <div>
                     <img src={about} alt="" />
