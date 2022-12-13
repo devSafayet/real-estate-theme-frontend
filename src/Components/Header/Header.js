@@ -23,27 +23,48 @@ const Header = () => {
                 <svg className="fill-current" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" /></svg>
             </a>
             <ul className="p-2 bg-base-100">
-                <li className="hover:text-primary"><Link to="/about">ABOUT US</Link></li>
+                <li className="hover:text-primary"><Link to="/about">Message from the Director</Link></li>
                 <li className="hover:text-primary"><Link to="/">ABOUT US</Link></li>
-                <li className="hover:text-primary"><Link to="/">ABOUT US</Link></li>
-                <li className="hover:text-primary"><Link to="/">ABOUT US</Link></li>
+                <li className="hover:text-primary"><Link to="/">Our Mission</Link></li>
+                <li className="hover:text-primary"><Link to="/">Our Team</Link></li>
             </ul>
         </li >
-        <li className="hover:text-primary"><Link to="/">PROPERTY</Link></li>
-
-        {/* <li><Link to="/concern">CONCERN</Link></li> */}
-        {/* <li><Link to="/services">SERVICES</Link></li> */}
         <li tabIndex={0}>
             <a className="hover:text-primary">
-                SERVICES
+                OUR SERVICES
                 <svg className="fill-current" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" /></svg>
             </a>
             <ul className="p-2 bg-base-100">
-                <li className="hover:text-primary"><Link to="/services">CONSTRUCTION</Link></li>
+                <li className="hover:text-primary"><Link to="/about"> Our Services</Link></li>
+                <li className="hover:text-primary"><Link to="/">Services</Link></li>
+                <li className="hover:text-primary"><Link to="/">Services</Link></li>
+                <li className="hover:text-primary"><Link to="/">Services</Link></li>
+            </ul>
+        </li >
+        <li tabIndex={0}>
+            <a className="hover:text-primary">
+                NEWS & EVENTS
+                <svg className="fill-current" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" /></svg>
+            </a>
+            <ul className="p-2 bg-base-100">
+                <li className="hover:text-primary"><Link to="/services">DHAKA</Link></li>
+                <li className="hover:text-primary"><Link to="/services">CUMILLA</Link></li>
+                <li className="hover:text-primary"><Link to="/services">CHITTAGONG</Link></li>
 
             </ul>
         </li>
-        <li className="hover:text-primary"><Link to="/">CONTACT</Link></li>
+        <li tabIndex={0}>
+            <a className="hover:text-primary">
+                CONTACT
+                <svg className="fill-current" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" /></svg>
+            </a>
+            <ul className="p-2 bg-base-100">
+                <li className="hover:text-primary"><Link to="/">HEAD OFFICE</Link></li>
+                <li className="hover:text-primary"><Link to="/services">BD OFFICE</Link></li>
+
+            </ul>
+        </li>
+
         <li tabIndex={0}>
             <a className="hover:bg-primary hover:rounded-lg">
                 <FaUserAlt />
@@ -84,25 +105,36 @@ const Header = () => {
                 </div>
                 {/* Right Side Social Icons  */}
 
-                <div className=' justify-around lg:gap-4 flex text-white'>
+                <div className=' justify-around lg:gap-4 md:gap-2 flex text-white'>
                     <div>
                         <a target="_blank" href="https://facebook.com/" aria-hidden="true"><span>
-                            <FaFacebook />
+                            <div className='text-xl text-primary bg-neutral rounded-full m-auto p-1'>
+                                <FaFacebook />
+                            </div>
                         </span></a>
                     </div>
                     <div>
                         <a target="_blank" href="https://twitter.com/" aria-hidden="true"><span>
-                            <FaTwitterSquare />
+                            <div className='text-xl text-primary bg-neutral rounded-full m-auto p-1'>
+                                <FaTwitterSquare />
+                            </div>
+
                         </span></a>
                     </div>
                     <div>
                         <a target="_blank" href="https://web.whatsapp.com/" aria-hidden="true"><span>
-                            <FaWhatsapp />
+                            <div className='text-xl text-primary bg-neutral rounded-full m-auto p-1'>
+                                <FaWhatsapp />
+                            </div>
+
                         </span></a>
                     </div>
                     <div>
                         <a target="_blank" href="https://www.instagram.com/" aria-hidden="true"><span>
-                            <FaInstagram />
+                            <div className='text-xl text-primary bg-neutral rounded-full m-auto p-1'>
+                                <FaInstagram />
+                            </div>
+
                         </span></a>
                     </div>
 

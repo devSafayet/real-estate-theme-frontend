@@ -59,7 +59,7 @@ const HeaderVideo = () => {
     </>
     return (
         <div>
-            <div id='header' className=''>
+            <div id='header' className='text-black'>
                 <div className="navbar sticky top-0 z-50 px-16 ">
                     <div className="flex justify-between w-full">
                         <div className="w-1/3">
